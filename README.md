@@ -1,16 +1,22 @@
-# canvas_test_challenge
+# Canvas Test Challenge from Studyo.io
 
-A new Flutter project.
+This Flutter project implements a UI with the following features:
 
-## Getting Started
+## Layout
 
-This project is a starting point for a Flutter application.
+- **Two Columns**:
+  - **Left Column (Source Boxes)**: Contains 4 vertically stacked containers.
+  - **Right Column (Destination Boxes)**: Contains 4 vertically stacked containers.
+  
+## Requirements
 
-A few resources to get you started if this is your first Flutter project:
+- **Containers**: All containers are the same size with consistent spacing.
+- **Curves**: A quadratic Bézier curve connects each container in the left column to its corresponding container in the right column.
+- **Responsiveness**: The layout adapts to different screen sizes while maintaining consistent spacing and proportions.
+- **Interactivity**: Curves are drawn only after tapping a container in both the left and right columns.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/arrahmanulhakim/canvas-test-challenge-studyo.io.git
